@@ -11,7 +11,7 @@ function getQuote() {
        displayQuote(data.message);
    })
     .catch(function() {
-       console.log("An error occurred");
+       console.log("An error has occurred");
    });
 }
 
